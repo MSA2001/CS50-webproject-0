@@ -1,0 +1,109 @@
+body{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+ul{
+    list-style: none;
+    text-align: right;
+    color: black;
+}
+a:link,a:visited,a:active{
+    text-decoration: none;
+    color:  #2D2D2D;
+    font-family: sans-serif;
+}
+a:hover{
+    text-decoration: underline;
+}
+.images{
+    padding-right: 30px;
+}
+.advanced{
+    padding-right: 25px;
+}
+.top-links{
+    padding-left: 0px;
+}
+.searches{
+    padding-top: 0px;
+}
+#logo{
+    padding-top: 100px;
+}
+.bar{
+    border-color: #888888;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px;
+    display: block;
+    margin: 0px;
+    padding: 11px;
+    width: 500px;
+    padding-left: 10px;
+}
+.bar-sm {
+    border-radius: 5px;
+    display: block;
+    margin: 7px;
+    padding: 7px;
+    width: 500px;
+}
+#Gsearch{
+    display: inline;
+    border-style: solid;
+    border: 1px solid #f8f9fa;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #f2f7ff;
+    font-size: 15px;
+    font-family: sans-serif;
+    margin-left: 0px;
+    padding-left: 0px;
+    left: 0px;
+}
+#lucky{
+    display: inline;
+    border-style: solid;
+    border: 1px solid #f8f9fa;
+    border-radius: 6px;
+    border-width: 1px;
+    background-color: #f2f7ff;
+    font-size: 15px ;
+    font-family: sans-serif;
+    margin-left: 0px;
+    padding-left: 0px;
+    left: 0px;
+}
+.bar:hover, .bar:focus, .bar-sm:hover, .bar-sm:focus{
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+  }
+  input[type=submit]{
+      font-size: 15px;
+  }
+  .images-logo{
+      margin-top: 1px;
+      margin-right: 1px;
+  }
+  li{
+     padding-left: 0px;
+     padding-top: 0px; 
+  }
+  #magnifier{
+    position: relative;
+    top: -47px;
+    left: 355px;
+    height: 19px;
+    width: 19px;
+    flex: 0px;
+    flex-wrap: wrap;
+}
+#lucky:hover, #lucky:focus, #lucky:hover,#lucky-sm:focus{
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+  }
+  #search:hover, #Gsearch:focus, #Gsearch:hover, #Gsearch-sm:focus{
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+  }  

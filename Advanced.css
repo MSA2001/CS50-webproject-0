@@ -1,0 +1,90 @@
+
+ul{
+    display: inline;
+    text-align: right;
+    list-style: none;  
+}
+li{
+    padding-left: 10px;
+}
+h2{
+    border-bottom: gray solid 2px;
+    padding-left: 130px;
+    margin-bottom: 20px;
+    color:#d93025;
+    font-size: 25px;
+}
+h3{
+    display: inline;
+}
+
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     font-style: inherit;
+    }
+#logo{
+    height: 46px;
+    width: 150px;
+    padding-top: 4px;
+    padding-left: 60px;
+}
+a:link,a:visited,a:active{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+    ;
+}
+.tform{
+    width: 300px;
+    border-width: 11px;
+    border-radius: 7px;
+    border: black solid 1px;
+    font-size: 18px;
+}
+.forms{
+    font-size: 12px;
+    margin-right: -1px;
+    padding-left: 150px;
+}
+p{
+    display: inline;
+    font-size: 16px;
+    padding-left: 100px;
+    margin-right: 22px;
+}
+#t1{
+    padding-left: 9px;
+}
+#t2{
+    padding-left: 9px;
+}
+#t3{
+    padding-left: 8px;
+}
+#t4{
+    padding-left: 6px;
+}
+#Images{
+    padding-left: 24px;
+}
+#submit-button{
+    background-color: #4346FA;
+    color: white;
+    margin-left: 615px;
+    padding-bottom: 4px;
+    border-radius: 5px;
+    cursor: default;
+    font-size: 13px;
+    font-weight: inherit;
+    text-align: center;
+}
+.tform:hover, .tform:focus, .tform-sm:hover, .bar-sm:focus{
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+}
+#submit-button:hover, #submit-button:focus, #submit-button:hover, #submit-button-sm:focus{
+    box-shadow: 0 0 1px 1px #888888;
+    outline: none;
+  }

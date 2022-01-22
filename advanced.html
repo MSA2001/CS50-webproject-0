@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced search</title>
+    <link rel="stylesheet" href="./Advanced.css">
+    <link rel="shortcut icon" href="./small_logo.png">
+</head>
+<body>
+    <ul>
+        <li>
+            <a href="./index.html" id="Home" >Home</a>
+            <a href="./image.html" id="Images" >Images</a>
+        </li>
+    </ul>
+    
+    <a href="https://www.google.com"  ><img src="./google.png" alt="google logo" id="logo" ></a>
+
+    <h2>Advanced search</h2>
+    <h3>find pages with...</h3><br>
+
+    <form action="https://google.com/search" class="forms" >
+        <p>All these words:</p><input type="text" name="as_q" class="tform" id="t1" >    Type the important words
+        <br><br><br><p>Exact word/phrase:</p><input type="text" name="as_epq" class="tform" id="t2" >    Put exact words in quotes
+        <br><br><br><p>Any of these words:</p><input type="text" name="as_oq" class="tform" id="t3" >    between all the words you want
+        <br><br><br><p>None of these words:</p><input type="text" name="as_eq" class="tform" id="t4" >    Put a minus sign just before words that you don't want
+        <br><br><br> <input type="submit" value="Advanced search" id="submit-button" >
+    </form>   
+</body>
+</html>
